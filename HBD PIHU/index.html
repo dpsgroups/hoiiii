@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HBD P</title>
+    <style>
+        body {
+            font-family: 'Lato', sans-serif;
+        }
+
+        body {
+            background-color: rgb(196, 161, 252);
+        }
+
+        .overlay {
+            height: 100%;
+            width: 0;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            background-color: rgb(0, 0, 0);
+            background-color: rgba(0, 0, 0, 0.9);
+            overflow-x: hidden;
+            transition: 0.5s;
+        }
+
+        .overlay-content {
+            position: relative;
+            top: 25%;
+            width: 100%;
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        .overlay a {
+            padding: 8px;
+            text-decoration: none;
+            font-size: 36px;
+            color: #818181;
+            display: block;
+            transition: 0.3s;
+        }
+
+        .overlay a:hover,
+        .overlay a:focus {
+            color: #f1f1f1;
+        }
+
+        .overlay .closebtn {
+            position: absolute;
+            top: 20px;
+            right: 45px;
+            font-size: 60px;
+        }
+
+        @media screen and (max-height: 450px) {
+            .overlay a {
+                font-size: 20px
+            }
+
+            .overlay .closebtn {
+                font-size: 40px;
+                top: 15px;
+                right: 35px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+            <a href="index.html">Home</a>
+            <a href="saswat.html">Saswat</a>
+            <a href="juliet.html">Juliet</a>
+            <a href="hitesh.html">Hitesh</a>
+            <a href="anchal.html">Anchal</a>
+            <a href="muskan.html">Muskan</a>
+            <a href="rose.html">Rojalin</a>
+            <a href="dipi.html">Dipika</a>
+            <a href="subu.html">Subrat</a>
+        </div>
+    </div>
+
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Hello P</span>
+
+    <script>
+        function openNav() {
+            document.getElementById("myNav").style.width = "100%";
+        }
+
+        function closeNav() {
+            document.getElementById("myNav").style.width = "0%";
+        }
+    </script>
+
+    <!DOCTYPE html>
+    <html>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            font-family: Arial;
+            margin: 0;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        img {
+            vertical-align: middle;
+        }
+
+        /* Position the image container (needed to position the left and right arrows) */
+        .container {
+            position: relative;
+        }
+
+        /* Hide the images by default */
+        .mySlides {
+            display: none;
+        }
+
+        /* Add a pointer when hovering over the thumbnail images */
+        .cursor {
+            cursor: pointer;
+        }
+
+        /* Next & previous buttons */
+        .prev,
+        .next {
+            cursor: pointer;
+            position: absolute;
+            top: 40%;
+            width: auto;
+            padding: 16px;
+            margin-top: -50px;
+            color: white;
+            font-weight: bold;
+            font-size: 20px;
+            border-radius: 0 3px 3px 0;
+            user-select: none;
+            -webkit-user-select: none;
+        }
+
+        /* Position the "next button" to the right */
+        .next {
+            right: 0;
+            border-radius: 3px 0 0 3px;
+        }
+
+        /* On hover, add a black background color with a little bit see-through */
+        .prev:hover,
+        .next:hover {
+            background-color: rgba(0, 0, 0, 0.8);
+        }
+
+        /* Number text (1/3 etc) */
+        .numbertext {
+            color: #f2f2f2;
+            font-size: 12px;
+            padding: 8px 12px;
+            position: absolute;
+            top: 0;
+        }
+
+        /* Container for image text */
+        .caption-container {
+            text-align: center;
+            background-color: #222;
+            padding: 2px 16px;
+            color: white;
+        }
+
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        /* Six columns side by side */
+        .column {
+            float: left;
+            width: 16.66%;
+        }
+
+        /* Add a transparency effect for thumnbail images */
+        .demo {
+            opacity: 0.6;
+        }
+
+        .active,
+        .demo:hover {
+            opacity: 1;
+        }
+    </style>
+
+    <body>
+
+        <h2 style="text-align:center">HAPPY BIRTHDAY VALENTINE GIRL</h2>
+
+        <div class="container">
+            <div class="mySlides">
+                <div class="numbertext">1 / 12</div>
+                <img src="img/cartoon.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">2 / 12</div>
+                <img src="img/candywomen.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">3 / 12</div>
+                <img src="img/hm.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">4 / 12</div>
+                <img src="img/hd.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">5 / 12</div>
+                <img src="img/qt.JPG" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">6 / 12</div>
+                <img src="img/2qt.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">7 / 12</div>
+                <img src="img/trimurti.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">8 / 12</div>
+                <img src="img/bfoto.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">9 / 12</div>
+                <img src="img/look.JPG" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">10 / 12</div>
+                <img src="img/love.JPG" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">11 / 12</div>
+                <img src="img/photo.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">12 / 12</div>
+                <img src="img/nun.jpg" style="width:100%">
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">❮</a>
+            <a class="next" onclick="plusSlides(1)">❯</a>
+
+            <div class="caption-container">
+                <p id="caption"></p>
+            </div>
+
+            <div class="row">
+                <div class="column">
+                    <img class="demo cursor" src="img/cartoon.jpg" style="width:0%" onclick="currentSlide(1)"
+                        alt="HAPPY BIRTHDAY PRIYANKA">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="img/candywomen.jpg" style="width:0%" onclick="currentSlide(2)"
+                        alt="CANDYWOMEN">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="img/hm.jpg" style="width:0%" onclick="currentSlide(3)"
+                        alt="HINDI MASTARANI">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="img/hd.jpg" style="width:0%" onclick="currentSlide(4)"
+                        alt="HEAVY DRIVER">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="img/qt.JPG" style="width:0%" onclick="currentSlide(5)" alt="QT">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="img/2qt.jpg" style="width:0%" onclick="currentSlide(6)" alt="QT😍QT">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="img/trimurti.jpg" style="width:0%" onclick="currentSlide(7)"
+                        alt="TRIMURTI">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="img/bfoto.jpg" style="width:0%" onclick="currentSlide(8)"
+                        alt="OUR BEST SELFIE">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="img/look.JPG" style="width:0%" onclick="currentSlide(9)"
+                        alt="THAT LOOK">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="img/love.JPG" style="width:0%" onclick="currentSlide(10)"
+                        alt="THIS ONE🧡">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="img/photo.jpg" style="width:0%" onclick="currentSlide(11)"
+                        alt="WE 3🐒">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="img/nun.jpg" style="width:0%" onclick="currentSlide(12)"
+                        alt="HOIIIII HAPPY BIRTHDAY ONCE AGAIN">
+                </div>
+            </div>
+        </div>
+
+        <script>
+            var slideIndex = 1;
+            showSlides(slideIndex);
+
+            function plusSlides(n) {
+                showSlides(slideIndex += n);
+            }
+
+            function currentSlide(n) {
+                showSlides(slideIndex = n);
+            }
+
+            function showSlides(n) {
+                var i;
+                var slides = document.getElementsByClassName("mySlides");
+                var dots = document.getElementsByClassName("demo");
+                var captionText = document.getElementById("caption");
+                if (n > slides.length) { slideIndex = 1 }
+                if (n < 1) { slideIndex = slides.length }
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";
+                }
+                for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" active", "");
+                }
+                slides[slideIndex - 1].style.display = "block";
+                dots[slideIndex - 1].className += " active";
+                captionText.innerHTML = dots[slideIndex - 1].alt;
+            }
+        </script>
+
+    </body>
+
+    </html>
+
+</body>
+
+</html>
